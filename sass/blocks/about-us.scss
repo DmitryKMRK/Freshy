@@ -18,6 +18,17 @@
   font-size: 34px;
   color: #00a1eb;
   text-transform: uppercase;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 81px;
+    height: 1px;
+    background: #a1a1a1;
+    position: absolute;
+    left: 0;
+    bottom: -23px;
+  }
 }
 
 .about-us__description {
@@ -48,4 +59,19 @@
   background-color: #00a1eb;
   text-align: center;
   text-transform: uppercase;
+}
+
+.about-us__img {
+  position: relative;
+
+  &::after {
+    content: "Nasz Sklep";
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+  }
 }

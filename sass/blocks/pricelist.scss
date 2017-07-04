@@ -9,6 +9,18 @@
   font-size: 34px;
   color: #00a1eb;
   text-transform: uppercase;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 81px;
+    height: 1px;
+    background: #a1a1a1;
+    position: absolute;
+    left: 50%;
+    bottom: -19px;
+    transform: translateX(-50%);
+  }
 }
 
 .pricelist__description {

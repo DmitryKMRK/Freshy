@@ -62,6 +62,18 @@
   font-weight: 700;
   color: #00a1eb;
   text-transform: uppercase;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 81px;
+    height: 1px;
+    background: #a1a1a1;
+    position: absolute;
+    left: 50%;
+    bottom: -22px;
+    transform: translateX(-50%);
+  }
 }
 
 .services__item-description {

@@ -1,10 +1,13 @@
 .contacts {
   display: flex;
-  position: relative;
-  padding-top: 131px;
   padding-bottom: 163px;
   background-color: #2eb2ef;
   color: #ffffff;
+}
+
+.contacts .container {
+  padding-top: 131px;
+  position: relative;
 }
 
 .contacts__content {
@@ -21,6 +24,17 @@
   margin-top: 0;
   font-size: 34px;
   text-transform: uppercase;
+  position: relative;
+
+  &::after {
+    content: "";
+    width: 81px;
+    height: 1px;
+    background: #ffffff;
+    position: absolute;
+    right: 0;
+    bottom: -23px;
+  }
 }
 
 .contacts__description {
