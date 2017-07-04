@@ -1,0 +1,119 @@
+.pricelist {
+  padding-top: 50px;
+  padding-bottom: 84px;
+  background: url("../img/background.jpg") repeat;
+}
+
+.pricelist__header {
+  text-align: center;
+  font-size: 34px;
+  color: #00a1eb;
+  text-transform: uppercase;
+}
+
+.pricelist__description {
+  font-family: "Hind";
+  font-size: 14px;
+  line-height: 21px;
+  color: #737373;
+  width: 625px;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.pricelist__slider {
+  margin-top: 46px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.pricelist__slider-arrow {
+  display: block;
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  border: 1px solid #01a1eb;
+  border-radius: 50%;
+  top: 115px;
+  cursor: pointer;
+
+  &--prev {
+    left: -50px;
+    background: url("../img/arrow-prev.png") center no-repeat;
+  }
+
+  &--next {
+    right: -50px;
+    background: url("../img/arrow-next.png") center no-repeat;
+  }
+}
+
+.pricelist__slider-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 270px;
+  background-color: #00a1eb;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &--1 {
+    background-image: url("../img/slider-1.jpg");
+  }
+
+  &--2 {
+    background-image: url("../img/slider-2.jpg");
+  }
+
+  &--3 {
+    background-image: url("../img/slider-3.jpg");
+  }
+
+  &--4 {
+    background-image: url("../img/slider-4.jpg");
+  }
+}
+
+.pricelist__slider-item:hover .pricelist__slider-btn {
+  display: block;
+}
+
+.pricelist__slider-item-heading {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.pricelist__slider-item-price {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.pricelist__slider-btn {
+  display: none;
+  margin-top: 8px;
+  padding: 10px 17px;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #00a1eb;
+  background-color: #ffffff;
+}
+
+.pricelist__btn {
+  margin: 0 auto;
+  margin-top: 57px;
+  width: 152px;
+  padding: 15px 24px;
+  background-color: #00a1eb;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}

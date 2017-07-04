@@ -1,0 +1,58 @@
+.contacts {
+  display: flex;
+  position: relative;
+  padding-top: 131px;
+  padding-bottom: 163px;
+  background-color: #2eb2ef;
+  color: #ffffff;
+}
+
+.contacts__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 490px;
+  margin-left: auto;
+  position: relative;
+  z-index: 2;
+}
+
+.contacts__heading {
+  margin-top: 0;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.contacts__description {
+  margin-top: 17px;
+  font-family: "Hind";
+  font-size: 14px;
+  line-height: 21px;
+  text-align: right;
+}
+
+.contacts__btn {
+  margin-top: 17px;
+  width: 105px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  color: #2eb2ef;
+  font-weight: 700;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.contacts__map {
+  position: absolute;
+  width: 709px;
+  height: 534px;
+  top: 0;
+  left: 0;
+  background-image: url("../img/map.png");
+  background-size: cover;
+
+  &:hover {
+    background-image: url("../img/map-hover.png");
+  }
+}

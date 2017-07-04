@@ -1,0 +1,51 @@
+.about-us {
+  padding-top: 130px;
+  padding-bottom: 96px;
+}
+
+.about-us__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us__content {
+  width: 470px;
+}
+
+.about-us__heading {
+  margin-top: -7px;
+  margin-bottom: 45px;
+  font-size: 34px;
+  color: #00a1eb;
+  text-transform: uppercase;
+}
+
+.about-us__description {
+  margin: 0;
+  margin-bottom: 17px;
+  font-family: "Hind";
+  color: #737373;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.about-us__tel {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #00a1eb;
+  text-transform: uppercase;
+}
+
+.about-us__btn {
+  width: 152px;
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  color: #ffffff;
+  background-color: #00a1eb;
+  text-align: center;
+  text-transform: uppercase;
+}
