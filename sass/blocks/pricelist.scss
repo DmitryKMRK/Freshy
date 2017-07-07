@@ -72,6 +72,7 @@
   background-color: #00a1eb;
   background-repeat: no-repeat;
   background-size: cover;
+  transition-duration: 0.5s;
 
   &--1 {
     background-image: url("../img/slider-1.jpg");
@@ -87,6 +88,10 @@
 
   &--4 {
     background-image: url("../img/slider-4.jpg");
+  }
+
+  &:hover {
+    transform: scale(1.02);
   }
 }
 
