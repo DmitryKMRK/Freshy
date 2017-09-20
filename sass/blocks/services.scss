@@ -96,4 +96,9 @@
   font-weight: 700;
   color: #ffffff;
   text-align: center;
+  transition: 0.5s all;
+
+  &:hover {
+    background-color: #247bb8;
+  }
 }

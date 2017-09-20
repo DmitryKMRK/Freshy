@@ -1,5 +1,6 @@
 .header {
   background: #174375 url("../img/header-back.jpg") center top no-repeat;
+  background-size: cover;
   color: #ffffff;
   padding-bottom: 213px;
 }
@@ -82,6 +83,11 @@
 .header__btn {
   padding: 11px 14px;
   background-color: #00a1eb;
+  transition: 0.5s all;
+
+  &:hover {
+    background-color: #247bb8;
+  }
 }
 
 .header__intro-heading {

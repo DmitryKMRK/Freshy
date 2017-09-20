@@ -59,6 +59,11 @@
   background-color: #00a1eb;
   text-align: center;
   text-transform: uppercase;
+  transition: 0.5s all;
+
+  &:hover {
+    background-color: #247bb8;
+  }
 }
 
 .about-us__img {
